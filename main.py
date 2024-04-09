@@ -113,4 +113,3 @@ class Game:
                     print("There is no such enemy here.")
             else:
                 print("Invalid command.")
-game=game()
