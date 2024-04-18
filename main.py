@@ -9,11 +9,13 @@ class Player:
 
     def choose_class(self):
         text = f"What class do you want to play, {self.playername}? Choose from Mage, Berserk, Archer, Tank, Healer: "
+        a=""
         a = input(text)
-        if a in ["Mage", "Beserk", "Archer", "Tank", "Healer"]:
-            self.playerclass = a
-        else:
-            print("Invalid class. Please choose a valid class.")
+        while not( ) :
+        self.playerclass = a
+        a = input(text)
+        
+        print("Invalid class. Please choose a valid class.")
 
 class Entity:
     def __init__(self, name, health, damage):
