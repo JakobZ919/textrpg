@@ -5,6 +5,7 @@ class Player:
         self.damage = 0
         self.intelligence = 0
         self.health = 100
+
         self.crit_damage = 0
 
     def choose_class(self):
