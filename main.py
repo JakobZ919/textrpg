@@ -1,6 +1,7 @@
 class Player:
     def __init__(self):
 
+
         self.playername = input("What's your name?:")
         self.playerclass = ""
         self.damage = 0
